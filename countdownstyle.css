@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/earth-sky-night-background-asset-game-2d-futuristic-generative-ai.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+  object-fit: contain;
+  text-align: center;
+}
+.section-container {
+  margin-top: 250px;
+  align-items: end;
+  display: flex;
+  flex-direction: row;
+  /* background-image: linear-gradient(
+    304deg,
+    rgba(33, 149, 243, 0.23),
+    rgba(0, 150, 135, 0.156),
+    rgba(233, 30, 98, 0.154)
+  ); */
+  backdrop-filter: blur(6px);
+  padding: 20px 50px;
+  box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.8);
+}
+.image-container {
+  margin: 0;
+}
+.qoute {
+  margin-top: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  font-weight: 600;
+  text-shadow: 0 0 7px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
+}
+.image-container img {
+  object-fit: contain;
+  width: 400px;
+  height: 500px;
+  filter: drop-shadow(5px 2px 2px #00000091);
+  rotate: y 180deg;
+}
+.gift-info {
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  /* background: linear-gradient(
+    304deg,
+    rgb(33 150 243 / 42%),
+    rgb(0 150 136 / 30%),
+    rgb(233 30 99 / 34%)
+  ); */
+}
+
+.deadline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.deadline-countdown {
+  color: white;
+  padding: 10px 15px;
+  font-size: 40px;
+  font-weight: 700;
+  border: 2px solid rgb(255, 230, 0);
+  text-shadow: 2px 1px 2px rgb(0, 0, 0);
+}
+.color {
+  text-shadow: 2px 2px 2px red;
+}
+.animation {
+  animation: animate 1s ease-out infinite;
+}
+@keyframes animate {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.8);
+  }
+  20% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.first-text {
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(255, 208, 66);
+  text-shadow: 2px 1px 2px rgb(0, 0, 0);
+}
+.giveaway {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 2px #fff, 0 0 3px #0fa, 0 0 4px #0fa, 0 0 5px #0fa;
+}
+p {
+  text-shadow: 2px 1px 2px rgb(8, 8, 8);
+  font-size: 25px;
+  color: white;
+}
+.hurryup {
+  font-size: 20px;
+  color: white;
+  visibility: hidden;
+}
+.visibility {
+  visibility: visible;
+}
